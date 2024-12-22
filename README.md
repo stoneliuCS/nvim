@@ -6,3 +6,5 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## Installation Notes:
 - Git 
 - MacTex *For Latex support*
+- Nix 
+- `nix-env -iA nixpkgs.nixpkgs-fmt`
