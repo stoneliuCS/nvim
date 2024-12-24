@@ -5,8 +5,7 @@ return {
 
     opts.sources = opts.sources or {}
     vim.list_extend(opts.sources, {
-      null_ls.builtins.formatting.nixpkgs_fmt, -- For nixpkgs-fmt
-      -- null_ls.builtins.formatting.alejandra, -- Uncomment for alejandra
+      null_ls.builtins.formatting.nixpkgs_fmt,
     })
   end,
 }
